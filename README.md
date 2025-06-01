@@ -43,11 +43,12 @@ STEP 9:For ‘N ‘ iterations ,do the following:<BR>
         v(i) = w(i)*x(i)<BR>
          
         W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)<BR>
+        
 STEP 10:Plot the error for each iteration <BR>
 STEP 11:Print the accuracy<BR>
 # PROGRAM:
 ```
-   import numpy as np
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -123,5 +124,6 @@ plt.show()
 ![Screenshot 2025-04-21 082044](https://github.com/user-attachments/assets/b7cf051a-ba2f-405d-9f86-e4311ed9942a)
 ![Screenshot 2025-04-21 082201](https://github.com/user-attachments/assets/e9a07279-5a7b-457b-8213-90afdac6bfe2)
 ![Screenshot 2025-04-21 082243](https://github.com/user-attachments/assets/319bfe2a-e1b5-47b8-bf3d-14da586c8e66)
+
 # RESULT:
- Thus, a single layer perceptron model is implemented using python to classify Iris data set.
+Thus, a single layer perceptron model is implemented using python to classify Iris data set.
